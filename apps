@@ -1,0 +1,16 @@
+[app] (name=brave-browser)
+  [Position]	(BOTTOMLEFT)	{0 0}
+  [Workspace]   {0}
+[end]
+[app] (name=hexchat)
+  [Position]	(BottomLeft)	{0 0}
+  [Workspace]   {2}
+[end]
+[app] (name=telegram-desktop)
+  [Position]	(WINCENTER)	{0 0}
+  [Workspace]   {2}
+[end]
+[app] (name=Mail)
+  [Workspace]   {3}
+  [Position] (BottomLeft) {0 0}
+[end]
