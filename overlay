@@ -1,2 +1,4 @@
 ! The following line will prevent styles from setting the background.
-! background: none
+background: none
+*font: -*-clean-*-r-*-*-12-*-*-*-*-*-iso10646-*
+

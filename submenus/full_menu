@@ -1,0 +1,185 @@
+[begin] (All Categories)
+[submenu] (Accessories)
+[exec] (Administrador de portapapeles ) { xfce4-clipman } Categories=GTK;Utility;TrayIcon;
+[exec] (Ayuda ) { yelp  } Categories=GNOME;GTK;Core;Documentation;Utility;
+[exec] (Buscador de aplicaciones ) { xfce4-appfinder } Categories=Utility;X-XFCE;
+[exec] (Buscador de aplicaciones ) { xfce4-appfinder } Categories=Utility;X-XFCE;
+[exec] (Búsqueda de archivos Catfish ) { /usr/bin/catfish  } Categories=GNOME;GTK;Utility;
+[exec] (Cambio de nombre en masa ) { thunar --bulk-rename  } Categories=System;Utility;Core;GTK;Filesystem;
+[exec] (compton ) { compton } Categories=Utility;
+[exec] (Configuración de la interfaz GTK+ de LightDM ) { lightdm-gtk-greeter-settings-pkexec } Categories=GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+[exec] (Conky Manager ) { conky-manager2 } Categories=Utility
+[exec] (Conky Toggle ) { conkytoggle.sh } Categories=Utility;System;
+[exec] (Ejecutar programa… ) { xfce4-appfinder --collapsed } Categories=Utility;X-XFCE;X-Xfce-Toplevel;
+[exec] (FeatherPad ) { featherpad  } Categories=Qt;Utility;TextEditor;
+[exec] (Galculator ) { galculator } Categories=Utility;
+[exec] (Gestor de archivadores ) { file-roller } Categories=GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities;
+[exec] (Gestor de archivos PCManFM ) { pcmanfm  } Categories=System;FileTools;FileManager;Utility;Core;GTK;
+[exec] (GtkHash ) { gtkhash } Categories=Utility;Security;GTK;
+[exec] (GVim ) { gvim } Categories=Utility;TextEditor;
+[exec] (Midnight Commander ) { xfce4-terminal -e mc } Categories=ConsoleOnly;Utility;FileManager;System;FileTools;
+[exec] (Midnight Commander editor ) { xfce4-terminal -e mcedit } Categories=Utility;TextEditor;
+[exec] (MongoDB Compass ) { mongodb-compass  } Categories=GNOME;GTK;Utility;
+[exec] (Montar iDispositivo ) { /usr/bin/idevice-mounter } Categories=Qt;Settings;System;Filesystem;Utility;MX-Utilities
+[exec] (MX Actualizador ) { /usr/bin/apt-notifier-unhide-Icon } Categories=System;Qt;KDE;Utility;X-KDE-Utilities-Desktop;
+[exec] (nitrogen ) { nitrogen } Categories=Utility;GTK;DesktopSettings;
+[exec] (Onboard ) { onboard } Categories=Utility;Accessibility;
+[exec] (PlayOnLinux ) { playonlinux  } Categories=Utility;Emulator;
+[exec] (ROXTerm ) { roxterm } Categories=GTK;Utility;TerminalEmulator;System;
+[exec] (TeXInfo ) { xfce4-terminal -e info } Categories=Utility;Documentation;ConsoleOnly;
+[exec] (Text Editor ) { gedit  } Categories=GNOME;GTK;Utility;TextEditor;
+[exec] (Thunar File Manager ) { thunar  } Categories=System;Utility;Core;GTK;FileTools;FileManager;
+[exec] (Touchpad Indicator ) { /usr/bin/touchpad-indicator } Categories=Utility;
+[exec] (VirtualBox ) { VirtualBox  } Categories=Emulator;System;Utility;
+[exec] (Winetricks ) { winetricks --gui } Categories=Utility;
+[exec] (Xfburn ) { xfburn } Categories=X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility;
+[end]
+[submenu] (Development)
+[exec] (Arduino IDE ) { /usr/bin/arduino  } Categories=Development;Engineering;Electronics;IDE;
+[exec] (DBeaver Community ) { /usr/share/dbeaver/dbeaver } Categories=IDE;Development
+[exec] (Geany ) { geany  } Categories=GTK;Development;IDE;TextEditor;
+[exec] (Icon Browser ) { yad-icon-browser } Categories=GTK;Development;
+[exec] (Sublime Text ) { /opt/sublime_text/sublime_text  } Categories=TextEditor;Development;
+[end]
+[submenu] (Games)
+[exec] (0 A.D. ) { 0ad } Categories=Game;StrategyGame;
+[end]
+[submenu] (Graphics)
+[exec] (gThumb ) { gthumb  } Categories=GNOME;GTK;Graphics;Viewer;RasterGraphics;2DGraphics;Photography;
+[exec] (Visor de imágenes Ristretto ) { ristretto  } Categories=GTK;Graphics;Viewer;
+[end]
+[submenu] (Internet)
+[exec] (Configuración de red avanzada ) { nm-connection-editor } Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;X-GNOME-Utilities;
+[exec] (Firefox ) { firefox  } Categories=Network;WebBrowser;
+[exec] (HexChat ) { hexchat --existing  } Categories=GTK;Network;IRCClient;
+[exec] (Navegador web Chromium ) { /usr/bin/chromium  } Categories=Network;WebBrowser;
+[exec] (Pale Moon ) { palemoon  } Categories=Network;WebBrowser;
+[exec] (qBittorrent ) { qbittorrent  } Categories=Network;FileTransfer;P2P;Qt;
+[end]
+[submenu] (Multimedia)
+[exec] (Alsamixer ) { x-terminal-emulator -e alsamixer } Categories=AudioVideo;Player;Audio;
+[exec] (Cheese ) { cheese } Categories=GNOME;AudioVideo;Video;Recorder;
+[exec] (Control de Volumen de PulseAudio ) { pavucontrol } Categories=AudioVideo;Audio;Mixer;GTK;
+[exec] (DeaDBeeF ) { deadbeef  } Categories=Audio;AudioVideo;Player;GTK;
+[exec] (mpv Media Player ) { mpv } Categories=AudioVideo;Audio;Video;Player;TV;
+[exec] (SimpleScreenRecorder ) { simplescreenrecorder --logfile } Categories=AudioVideo;Video;Recorder;Qt;
+[exec] (SMPlayer ) { smplayer  } Categories=Qt;AudioVideo;Player;Video;
+[exec] (SMTube ) { smtube } Categories=Qt;KDE;AudioVideo;Player;Video;
+[exec] (Webcamoid ) { webcamoid } Categories=AudioVideo;Player;Qt;
+[exec] (Xfburn ) { xfburn } Categories=X-XFCE;GTK;DiscBurning;Archiving;AudioVideo;Utility;
+[end]
+[submenu] (Office)
+[exec] (qpdfview ) { qpdfview } Categories=Viewer;Office;
+[end]
+[submenu] (System)
+[exec] (About MX Linux ) { mx-welcome --about } Categories=GNOME;GTK;System;MX-Setup;
+[exec] (Administrador de disco ) { su-to-root -X -c /usr/sbin/disk-manager } Categories=System;MX-Maintenance;
+[exec] (ADSL/PPPOE configuration ) { x-terminal-emulator -e /usr/sbin/pppoeconf } Categories=System;Settings;HardwareSettings;
+[exec] (Analizador de uso de disco ) { baobab } Categories=GTK;GNOME;System;Filesystem;X-GNOME-Utilities;
+[exec] (Barra de título ) { mxfb-top } Categories=System;
+[exec] (Bash Config ) { bash-config } Categories=GNOME;GTK;System;X-MX-Setup;
+[exec] (Bordes ) { mxfb-borders } Categories=System;
+[exec] (Cambio de nombre en masa ) { thunar --bulk-rename  } Categories=System;Utility;Core;GTK;Filesystem;
+[exec] (Configuración de impresión ) { system-config-printer } Categories=System;Settings;HardwareSettings;Printing;GTK;
+[exec] (Configuración de la interfaz GTK+ de LightDM ) { lightdm-gtk-greeter-settings-pkexec } Categories=GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+[exec] (Configuración del cortafuegos ) { gufw } Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+[exec] (Conky Toggle ) { conkytoggle.sh } Categories=Utility;System;
+[exec] (Custom Toolbox ) { custom-toolbox } Categories=GNOME;GTK;System;
+[exec] (Dockmaker ) { mx-dockmaker } Categories=System;MX-Utilities;
+[exec] (Editor de dconf ) { dconf-editor } Categories=GNOME;GTK;System;
+[exec] (FAQ ) { mx-faq } Categories=System;
+[exec] (Fondos de pantalla ) { nitrogen } Categories=System;
+[exec] (Formatear USB ) { formatusb } Categories=System;MX-Utilities;X-antiX;
+[exec] (Fuente del menú ) { mxfb-menufont } Categories=System;
+[exec] (Gestor de archivos PCManFM ) { pcmanfm  } Categories=System;FileTools;FileManager;Utility;Core;GTK;
+[exec] (Gestor de configuración ) { custom-toolbox /etc/custom-toolbox/mxfb-settings.list } Categories=GNOME;GTK;System;
+[exec] (Gestor de paquetes Synaptic ) { synaptic-pkexec } Categories=PackageManager;GTK;System;Settings;
+[exec] (Gestor Tint2 ) { /usr/bin/mxfb-tint2-manager } Categories=System;
+[exec] (GKrellM System Monitor ) { gkrellm } Categories=System;
+[exec] (GParted ) { /usr/sbin/gparted  } Categories=GNOME;System;Filesystem;
+[exec] (Grsync ) { /usr/bin/grsync -i  } Categories=Application;System;
+[exec] (GSmartControl ) { "/usr/bin/gsmartcontrol-root" } Categories=System;Monitor;
+[exec] (Htop ) { xfce4-terminal -e htop } Categories=System;Monitor;ConsoleOnly;
+[exec] (Idesktool ) { mx-idesktool } Categories=System; MX-Utilities
+[exec] (Información rápida del Sistema ) { x-terminal-emulator -e bash -c "/usr/bin/quick-system-info-mx" } Categories=System;MX-Utilities
+[exec] (Informacion y Rendimiento del Sistema ) { /usr/bin/hardinfo } Categories=System;
+[exec] (Instalador de controlador Nvidia ) { xfce4-terminal -e su-to-root -X -c "/usr/bin/ddm-mx -i nvidia" } Categories=ConsoleOnly;System;MX-Setup;
+[exec] (Instalador de paquetes GDebi ) { su-to-root -X -c "gdebi-gtk " } Categories=System;
+[exec] (LXTerminal ) { lxterminal } Categories=GTK;System;TerminalEmulator;
+[exec] (Manual ) { mxfb-help } Categories=System;
+[exec] (Midnight Commander ) { xfce4-terminal -e mc } Categories=ConsoleOnly;Utility;FileManager;System;FileTools;
+[exec] (Montar iDispositivo ) { /usr/bin/idevice-mounter } Categories=Qt;Settings;System;Filesystem;Utility;MX-Utilities
+[exec] (MX Actualizador ) { /usr/bin/apt-notifier-unhide-Icon } Categories=System;Qt;KDE;Utility;X-KDE-Utilities-Desktop;
+[exec] (MX Arreglar claves GPG ) { xfce4-terminal -e pkexec checkaptgpg --wait-at-end } Categories=PackageManager;System;
+[exec] (MX Arreglar claves GPG ) { xfce4-terminal -e pkexec checkaptgpg --wait-at-end } Categories=PackageManager;System;MX-Software;
+[exec] (MX Asistente de Redes ) { su-to-root -X -c mx-network-assistant } Categories=System;MX-Setup;
+[exec] (MX Bienvenida ) { mx-welcome } Categories=GNOME;GTK;System;MX-Setup;
+[exec] (MX Comfort ) { mxfb-comfort } Categories=System;
+[exec] (MX Conky ) { mx-conky } Categories=GNOME;GTK;System;MX-Setup
+[exec] (MX Construir Live-USB ) { su-to-root -X -c "mx-live-usb-maker " } Categories=System;MX-Live;
+[exec] (MX Desmontar USB ) { mx-usb-unmounter } Categories=System
+[exec] (MX Editor del menú ) { mx-menu-editor } Categories=GNOME;GTK;System;MX-Maintenance;
+[exec] (MX Fecha & Hora ) { su-to-root -X -c mx-datetime } Categories=GNOME;GTK;System;MX-Setup;
+[exec] (MX Fluxbox ) { mxflux_install.sh } Categories=System;
+[exec] (MX Gestionar Repos ) { su-to-root -X -c mx-repo-manager } Categories=GNOME;GTK;System;MX-Software;
+[exec] (MX Gestor de Usuarios ) { su-to-root -X -c mx-user } Categories=System;MX-Maintenance;
+[exec] (MX Instalar códecs ) { su-to-root -X -c mx-codecs } Categories=System;MX-Setup;
+[exec] (MX Instalar Paquetes ) { su-to-root -X -c mx-packageinstaller } Categories=System;MX-Software;
+[exec] (MX Limpieza ) { su-to-root -X -c mx-cleanup } Categories=System;MX-Maintenance
+[exec] (MX Manual de Usuario ) { mx-manual } Categories=System;
+[exec] (MX Opciones de inicio ) { su-to-root -X -c mx-boot-options } Categories=GNOME;GTK;System;MX-Maintenance
+[exec] (MX Remasterizar CC ) { mx-remastercc } Categories=GNOME;GTK;System;MX-Live
+[exec] (MX Samba Config ) { mx-samba-config } Categories=System;MX-Maintenance;
+[exec] (MX Seleccionar Audio ) { mx-select-sound } Categories=GNOME;GTK;System;MX-Setup
+[exec] (MX Snapshot ) { su-to-root -X -c mx-snapshot } Categories=GNOME;GTK;System;MX-Live;
+[exec] (Paseo MX ) { mx-tour } Categories=System;MX-Setup;
+[exec] (Quickshot ) { mxfb-quickshot } Categories=System;
+[exec] (ROXTerm ) { roxterm } Categories=GTK;Utility;TerminalEmulator;System;
+[exec] (Thunar File Manager ) { thunar  } Categories=System;Utility;Core;GTK;FileTools;FileManager;
+[exec] (Tint2 ) { tint2 } Categories=System;
+[exec] (Trash check ) { mxfb-trashcheck } Categories=System;
+[exec] (UXTerm ) { uxterm } Categories=System;TerminalEmulator;
+[exec] (VirtualBox ) { VirtualBox  } Categories=Emulator;System;Utility;
+[exec] (Xfce Terminal ) { xfce4-terminal } Categories=GTK;System;TerminalEmulator;
+[exec] (XTerm ) { xterm } Categories=System;TerminalEmulator;
+[end]
+[submenu] (Settings)
+[exec] (About MX-Fluxbox ) { about-mx-fluxbox } Categories=Settings;DesktopSettings;
+[exec] (Acerca de mí ) { /usr/bin/mugshot } Categories=GNOME;GTK;Settings;X-GNOME-Settings-Panel;X-GNOME-PersonalSettings;DesktopSettings;X-XFCE;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Adaptadores Bluetooth ) { blueman-adapters } Categories=X-XFCE;Settings;HardwareSettings;X-XFCE-SettingsDialog;GTK;
+[exec] (Administrador de energía ) { xfce4-power-manager-settings } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
+[exec] (Administrador de panel ) { tint2conf } Categories=Settings;DesktopSettings;
+[exec] (ADSL/PPPOE configuration ) { x-terminal-emulator -e /usr/sbin/pppoeconf } Categories=System;Settings;HardwareSettings;
+[exec] (Ajustes del administrador del portapapeles ) { xfce4-clipman-settings } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Ajustes del monitor ) { lxrandr } Categories=GTK;Settings;HardwareSettings;X-LXDE-Settings;
+[exec] (ARandR ) { arandr } Categories=Settings;HardwareSettings;
+[exec] (Brillo Systray ) { mx-tweak --tray & } Categories=XFCE;Settings;DesktopSettings;MX-Setup;
+[exec] (Configuración de impresión ) { system-config-printer } Categories=System;Settings;HardwareSettings;Printing;GTK;
+[exec] (Configuración de la interfaz GTK+ de LightDM ) { lightdm-gtk-greeter-settings-pkexec } Categories=GNOME;GTK;Settings;System;Utility;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+[exec] (Configuración de Onboard ) { onboard-settings } Categories=Settings;Accessibility;
+[exec] (Configuración de red avanzada ) { nm-connection-editor } Categories=GNOME;GTK;Settings;X-GNOME-NetworkSettings;X-GNOME-Utilities;
+[exec] (Configuración del cortafuegos ) { gufw } Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
+[exec] (Configuración del gestor de archivos ) { thunar-settings } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Configuración del terminal Xfce ) { xfce4-terminal --preferences } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Dispositivos y soportes extraíbles ) { thunar-volman-settings } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
+[exec] (Efectos de ventana ) { compton-conf } Categories=Settings;DesktopSettings;Qt;LXQt;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Gestor de Bluetooth ) { blueman-manager } Categories=GTK;GNOME;Settings;HardwareSettings;
+[exec] (Gestor de paquetes Synaptic ) { synaptic-pkexec } Categories=PackageManager;GTK;System;Settings;
+[exec] (Input Method ) { im-config } Categories=Settings
+[exec] (Locales del Sistema ) { su-to-root -X -c system-locales-mx } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;MX-Setup
+[exec] (Montar iDispositivo ) { /usr/bin/idevice-mounter } Categories=Qt;Settings;System;Filesystem;Utility;MX-Utilities
+[exec] (MX Herramientas ) { mx-tools } Categories=XFCE;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (MX Tweak ) { mx-tweak } Categories=XFCE;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;MX-Setup;
+[exec] (nitrogen ) { nitrogen } Categories=Utility;GTK;DesktopSettings;
+[exec] (Notificaciones ) { xfce4-notifyd-config } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+[exec] (Personalizar apariencia y comportamiento ) { lxappearance } Categories=GTK;Settings;DesktopSettings;X-LXDE-Settings;
+[exec] (Preferencias del escritorio ) { pcmanfm --desktop-pref } Categories=Settings;GTK;DesktopSettings;X-LXDE-Settings;
+[exec] (Salvapantallas ) { xscreensaver-demo } Categories=Settings;DesktopSettings;Security;X-XFCE;
+[exec] (Teclado del Sistema ) { su-to-root -X -c system-keyboard-qt } Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;MX-Setup;
+[exec] (TeXdoctk ) { texdoctk } Categories=Settings;
+[end]
+[submenu] (Other applications)
+[exec] (Chroot Rescue Scan ) { x-terminal-emulator -e sudo chroot-rescue-scan --pause } Categories=X-antiX;MX-Maintenance;
+[exec] (Exit options ) { exit-options } Categories=Accessories;
+[exec] (RustDesk ) { rustdesk }
+[end]

@@ -27,14 +27,13 @@ fi
 # Because it is the last app you have to run it with ''exec'' before it.
 
 
-fbsetbg -l &
-lxterminal &
 xscreensaver -no-splash &
-compton &
-telegram-desktop & 
-thunderbird & 
-hexchat & 
-brave-browser & 
-exec fluxbox
+setxkbmap us &
 # or if you want to keep a log:
 # exec fluxbox -log "/home/kl0d/.fluxbox/log"
+hexchat &
+nm-applet &
+xfce4-terminal &
+fbsetbg -l &
+gkrellm &
+exec fluxbox
